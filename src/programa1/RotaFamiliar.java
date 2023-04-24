@@ -95,7 +95,15 @@ public class RotaFamiliar {
 
 			System.out.println("Vai Chegar no trabalho:  " + horas + " h " + " e " + minutos + " minutos ");
 
-		
+			switch (horas) {
+
+			case 6 :
+				System.out.println("Você vai chegar no horário!");
+				break;
+			case 8:
+				System.out.println("Você vai chegar atrasado!");
+				break;
+			}
 		}
 
 
